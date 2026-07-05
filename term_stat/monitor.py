@@ -23,7 +23,7 @@ class SystemMonitor:
             'disk_pct': disk.percent,
             'ram_used': f"{ram.used / (1024**3):.1f}/{ram.total / (1024**3):.1f} GB",
             'disk_used': f"{disk.used / (1024**3):.1f}/{disk.total / (1024**3):.1f} GB",
-            'cpu_cores': psutil.cpu_count()
+            'cpu_cores': psutil.cpu_count(),
             'net_sent': f"{net_sent:.1f} MB",
             'net_recv': f"{net_recv:.1f} MB"
         }
