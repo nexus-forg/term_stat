@@ -18,7 +18,7 @@
 ## 🚀 Установка
 
 ```bash
-git clone https://github.com/yourusername/term-stat.git
+git clone https://github.com/nexus-forg/term-stat.git
 cd term-stat
 pip install -r requirements.txt
 pip install -e .
