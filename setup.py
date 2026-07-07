@@ -14,6 +14,6 @@ setup(
             'term-stat=term_stat.cli:main',
         ],
     },
-    author='Ahmad',
+    author='Nexus',
     description='Lightweight terminal system monitor',
 )
